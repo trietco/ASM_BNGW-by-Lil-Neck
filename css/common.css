@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:  karantina;
+	background-image: url("../imgs/Background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: transparent;
+}
+@font-face {
+    font-family: khand-bold;
+    src: url("../font/Khand-Bold.ttf");
+}
+@font-face {
+    font-family: khand-regular;
+    src: url("../font/Khand-Regular.ttf");
+}
+@font-face {
+	font-family: karantina;
+	src: url("../font/Karantina-Light.ttf");
+}
+@font-face {
+	font-family: karantina-bold;
+	src: url("../font/Karantina-Bold.ttf");
+}
+.darkbtn{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: karantina-bold;
+    height: 50px;
+    margin-top: 32px;
+    text-align: center;
+    color: white;
+    background-color: #028391;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 7px;
+    border-radius: 7px;
+    transition: all ease .5s;
+}
+.darkbtn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #01204E;
+    transition: all ease .5s;
+}
+.lightkbtn{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: karantina-bold;
+    height: 50px;
+    margin-top: 32px;
+    text-align: center;
+    color: #028391;
+    background-color: white;
+    border: #028391;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 7px;
+    border-radius: 7px;
+    transition: all ease .5s;
+}
+.lightbtn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #028391;
+    transition: all ease .5s;
+}
+/*===========NAVI===========*/
+#bgnavi{
+	height: 140px;
+}
+#logo{
+	height: 70px;
+	margin-top: 35px;
+}
+#navi ul{   
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#navi ul li{
+    display: block;
+    float: left;
+    padding-right: 40px;
+}
+#navi ul li a{
+    font-family: karantina;
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 35px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+    transition: all ease .5s;
+}
+#navi ul li a:hover{
+    color: #028391;
+    transition: all ease .5s;
+}
+
+#icons ul{   
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#icons ul li{
+    display: block;
+    float: right;
+}
+#icons ul li a{
+    color: #028391;
+    display: block;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+    transition: all ease .5s;
+}
+#icons ul li a:hover{
+    padding-top: 2px;
+    transition: all ease .5s;
+}
+/*===========BANNER 1===========*/
+#all_banner{
+    height: 600px;
+}
+#banner1{
+    height: 500px;
+    background-image: url("../imgs/wuwabanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+#banner1 ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#banner1 ul li{
+    display: block;
+    margin-left: 35px;
+    
+}
+#banner1 h1{
+    font-family: karantina-bold;
+    margin-top: 210px;
+}
+#banner1 p{
+    letter-spacing: 3px;
+}
+#banner1 .darkbtn{
+    width: 150px;
+}
+/*===========FILTER===========*/
+#filter{
+    height: 700px;
+    background-color: white;
+}
+#games ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 40px;
+}
+#games ul li{
+    display: block;
+    float: left;
+    padding-top: 30px;
+}
+#games ul li a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease .5s;
+    border-radius: 12px;
+}
+#games ul li a:hover{
+    border: solid 1px black;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: all ease .5s;
+}
+#showcase{
+    height: 550px;
+    margin-top: 70px;
+    padding-left: 50px;
+    border-radius: 15px;
+    background-color: rgba(148, 148, 148, 0.168);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.phonecase{
+    margin-top: 60px;
+    margin-left: 75Px;
+}
+#info{
+    height: 550px;
+    margin-top: 70px;
+}
+#info h4{
+    font-family: khand-bold;
+}
+.searchbtn{
+    height: 50px;
+    width: 400px;
+    float: left;
+    border-radius: 10px;
+    font-size: 28px;
+    font-family: khand-regular;
+    padding-left: 10px;
+}
+#info p{
+    font-family: khand-bold;
+    font-size: 55px;
+}
+#info .darkbtn{
+    font-family: khand-bold;
+    width: 400px;
+    height: 80px;
+    padding-top: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#info ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#info ul li{
+    display: block;
+    float: left;
+}
+#info ul li h4,#info ul li a{
+    margin-top: 15px;
+}
+#info ul .darkbtn{
+    background-color: #FFC107;
+    color: #e6e6e6;
+    text-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    font-family: khand-regular;
+    font-weight: lighter;
+    height: 40px;
+    width: 150px;
+    margin-top: 7px;
+    padding-top: 0px;
+    border-radius: 20px;
+    transition: all ease .5s;
+}
+#info ul .darkbtn:hover{
+    margin-top: 1px;
+    transition: all ease .5s;
+}
+/*===========BANNER 2===========*/
+#banner2_head{
+    height: 150px;
+    background-color: #01204E;
+}
+#banner2_head .pagename{
+    margin-top: 40px;
+    font-size: 60px;
+    margin-left: 60px;
+}
+#banner2_body{
+    height: 750x;
+}
+/*===========MORE PRODUCTS===========*/
+#moreProducts_bg{
+    height: 640px;
+    background-color: #028391;
+}
+.pagename{
+    margin-top: 20px;
+    font-family: Khand-bold;
+    color: white;
+    font-size: 60px;
+    margin-left: 25px;
+}
+#listProducts ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#listProducts li{
+    display: block;
+    float: left;
+}
+#listProducts ul li a{
+    font-family: khand-bold;
+    font-size: 24px;
+    color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.product{
+    width: 270px;
+    height: 380px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: khand-bold;
+    font-size: 24px;
+}
+.bodercontent{
+    background-color: rgba(0, 0, 0, 0.215);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.img-thumbnail{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#viewMore button{
+    width: 162px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: white;
+    color: #028391;
+    font-family: khand-bold;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 45px;
+    border: none;
+    transition: all ease .5s;
+}
+#viewMore button:hover{
+    border: solid 3px #01204E;
+    margin-top: 2px;
+    transition: all ease .5s;
+}
+/*===========GOOD REVIEW===========*/
+#goodReview_bg{
+    height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imgs/goodreview.png");
+}
+/*===========SUBSCRIBLE===========*/
+#subscribe_bg{
+    height: 280px;
+    background-color: #028391;
+}
+.subscribe-container h2{
+    margin-top: 20px;
+    font-family: khand-regular;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.subscribe-container .premium{
+    font-family: khand-bold;
+    color: #FFC209;
+}
+
+.subscribe-container p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: khand-regular;
+}
+
+.subscribe-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-container input{
+    font-family: khand-regular;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subscribe-container button{
+    font-family: khand-regular;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #01204E;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all ease .5s;
+}
+
+.subscribe-container button:hover{
+    background-color: #001330;
+    transition: all ease .5s;
+}
+/*===========FOOTER===========*/
+#footer{
+    height: 450px;
+}
+.footerList ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+}
+.footerList ul li{
+    padding-top: 20px;
+    display: block;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: khand-regular;
+}
+.footerList ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all ease .5s;
+}
+.footerList ul li a:hover{
+    color: #028391;
+    transition: all ease .5s;
+}
+.footerList ul li hr{
+    border: solid 2px #028391;
+    width: 100px;
+    margin-right: 200px;
+}
